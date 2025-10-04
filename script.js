@@ -744,4 +744,5 @@ function changeColor() {
   d366.style.backgroundColor = getRandomColor();
 }
 
+changeColor();
 setInterval(changeColor, 1000);
